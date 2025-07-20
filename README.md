@@ -13,7 +13,7 @@ Built with:
 
 ## 🚀 Live Demo
 
-🌍 **Try it here**: [https://sentiment-app.onrender.com/predict](https://sentiment-app.onrender.com/predict)
+🌍 **Try it here**: [https://sentiment-app.onrender.com/predict](https://sentiment-app.onrender.com)
 
 Use **Postman** or `curl` to make a POST request like this:
 
