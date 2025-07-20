@@ -15,6 +15,9 @@ The app is built with:
 
 🌍 **Try it here**: [https://sentiment-app.onrender.com/predict](https://sentiment-app.onrender.com/predict)
 
+https://sentiment-app.onrender.com
+
+
 Use **Postman** or **cURL** to make a `POST` request to the `/predict` endpoint with JSON input:
 
 ```json
