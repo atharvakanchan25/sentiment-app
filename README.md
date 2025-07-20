@@ -1,13 +1,13 @@
 # 💬 Sentiment Analysis Web App (with Docker & CI/CD)
 
-This is a simple yet powerful sentiment analysis web app that uses a **Logistic Regression model** to predict whether a given text expresses a **Positive** or **Negative** sentiment.
+This is a simple yet powerful Sentiment Analysis Web App that predicts whether a given text expresses a **Positive** or **Negative** sentiment using a machine learning model.
 
-The app is built with:
-- 🧠 Python (Scikit-learn)
-- 🌐 Flask API
-- 🐳 Docker containerization
-- 🔁 CI/CD via GitHub Actions
-- ☁️ Deployed live using Render
+Built with:
+- 🧠 Logistic Regression (Scikit-learn)
+- 🌐 Flask REST API
+- 🐳 Docker
+- 🔁 GitHub Actions CI/CD
+- ☁️ Deployed with Render
 
 ---
 
@@ -15,11 +15,9 @@ The app is built with:
 
 🌍 **Try it here**: [https://sentiment-app.onrender.com/predict](https://sentiment-app.onrender.com/predict)
 
-https://sentiment-app.onrender.com
+Use **Postman** or `curl` to make a POST request like this:
 
-
-Use **Postman** or **cURL** to make a `POST` request to the `/predict` endpoint with JSON input:
-
+### Request
 ```json
 {
   "text": "I really love this app!"
